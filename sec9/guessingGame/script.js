@@ -9,9 +9,9 @@ var guess = Number(prompt("Guess a number between 1 & 100"));
 // check guess
 while (guess !== secretNumber) {
   if (guess > secretNumber) {
-    guess = Number(prompt("Fuck no dipshit, lower."));
+    guess = Number(prompt("Wrong, lower."));
   } else {
-    guess = Number(prompt("Fuck no dipshit, higher."));
+    guess = Number(prompt("Wrong, higher."));
   }
 }
 

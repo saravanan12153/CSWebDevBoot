@@ -15,7 +15,7 @@ for(i = 10; i < 41; i++) {
 console.log("Print all odd numbers between 300 and 333");
 
 for(i = 300; i < 334; i++) {
-  if(i % 2 === 1) {
+  if(i % 2 !== 0) {
   console.log(i);
   }
 }

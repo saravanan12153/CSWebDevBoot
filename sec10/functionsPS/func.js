@@ -7,14 +7,20 @@ function isEven(num)  {
 console.log("Write a function factorial() which takes a single numeric argument and returns the factorial of that number");
 
 function factorial(num)  {
-  if(num === 0 || num === 1)  {
-    return 1;
-  } else {
-    for(num2 = num - 1; num2 > 1; num2--) {
-      num = num * num2;
-    }
-    return num;
-    }
+  var result = 1;
+  for(num2 = result + 1; num2 <= num; num2++) {
+    result = result * num2;
+  }
+  return result;
+
+  // if(num === 0 || num === 1)  {
+  //   return 1;
+  // } else {
+  //   for(num2 = num - 1; num2 > 1; num2--) {
+  //     num = num * num2;
+  //   }
+  //   return num;
+  //   }
 }
 
 

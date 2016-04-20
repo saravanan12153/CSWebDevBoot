@@ -28,8 +28,10 @@ function factorial(num)  {
 console.log("Write a function kebabToSnake() which takes a single kebab-cased string argument and returns the snake_cased version.");
 
 function kebabToSnake(str)  {
-  while(str.indexOf("-") !== -1) {
-    str = str.replace("-", "_");
-  }
-  return str;
+  str2 = str.replace(/-/g, "_");
+
+  // while(str.indexOf("-") !== -1) {
+  //   str = str.replace("-", "_");
+  // }
+  return str2;
 }
